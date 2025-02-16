@@ -1,7 +1,6 @@
-from langchain_openai import OpenAI
-from langchain_core.prompts import PromptTemplate
-
 from dotenv import load_dotenv
+from langchain_core.prompts import PromptTemplate
+from langchain_openai import OpenAI
 
 load_dotenv()
 
